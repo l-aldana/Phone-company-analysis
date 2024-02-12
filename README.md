@@ -4,7 +4,7 @@ Data analysis of profits from a phone company
 The datasets belongs to a telecom / phone company that offers to its customers two prepaid rates: Surf and Ultimate. Dataset has information regarding 500 customers of 2018. The main goal is to determine which plan is more profitable. Also, I will perform the following hypothesis tests:
 - Average profit of Surf plan and Ultimate plan.
 - Average profit of NY-NJ area and Other areas.
-- 
+
 The phone company rounds seconds to minutes and megabytes to gigabytes. Each individual call is rounded, even if the call lasts 1 second, it will be charged and counted as 1 minute. Regarding internet, individual consumption will not be rounded, however the total amount rounds up. If anybody consumes 1025 megabytes then 2 gigabytes will be charged (1 GB = 1024 megabytes)
 
 **Description of the plan rates:**
