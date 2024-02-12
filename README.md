@@ -8,13 +8,17 @@ The datasets belongs to a telecom / phone company that offers to its customers t
 The phone company rounds seconds to minutes and megabytes to gigabytes. Each individual call is rounded, even if the call lasts 1 second, it will be charged and counted as 1 minute. Regarding internet, individual consumption will not be rounded, however the total amount rounds up. If anybody consumes 1025 megabytes then 2 gigabytes will be charged (1 GB = 1024 megabytes)
 
 **Description of the plan rates:**
+
 _Surf_
-Monthly payment: 20$
-500 minutes, 50 SMS and 15 GB of data per month.
+
+- Monthly payment: 20$
+- 500 minutes, 50 SMS and 15 GB of data per month.
+
 If these limits are exceeded, then:
-1 extra minute: 3 cents
-1 extra SMS: 3 cents
-1 extra GB of data: 10$
+
+- 1 extra minute: 3 cents
+- 1 extra SMS: 3 cents
+- 1 extra GB of data: 10$
 
 _Ultimate_
 Monthly paymentl: 70$
