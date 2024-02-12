@@ -21,47 +21,56 @@ If these limits are exceeded, then:
 - 1 extra GB of data: 10$
 
 _Ultimate_
-Monthly paymentl: 70$
-3000 minutes, 50 SMS y 15 GB of data per month.
+
+- Monthly paymentl: 70$
+- 3000 minutes, 50 SMS y 15 GB of data per month.
+
 If these limits are exceeded, then:
-1 extra minute: 1 cents
-1 extra SMS: 1 cents
-1 extra GB of data: 7 $
+
+- 1 extra minute: 1 cents
+- 1 extra SMS: 1 cents
+- 1 extra GB of data: 7 $
 
 **Datasets:**
+
 _users:_
-user_id — user's id
-first_name —user's name
-last_name — user's last name
-age — user's age (years)
-reg_date — registered date (dd, mm, aa)
-churn_date — date when user left the plan (if is a null value, it means the plan was being used in that date)
-city — user's city of residency
-plan — rate name
+
+- user_id — user's id
+- first_name —user's name
+- last_name — user's last name
+- age — user's age (years)
+- reg_date — registered date (dd, mm, aa)
+- churn_date — date when user left the plan (if is a null value, it means the plan was being used in that date)
+- city — user's city of residency
+- plan — rate name
 
 _calls:_
-id — call id
-call_date — call date
-duration — call duration (minutes)
-user_id — user's id
+
+- id — call id
+- call_date — call date
+- duration — call duration (minutes)
+- user_id — user's id
 
 _messages:_
-id — sms id
-message_date — sms date
-user_id — user's id
+
+- id — sms id
+- message_date — sms date
+- user_id — user's id
 
 _internet:_
-id — session id
-mb_used — data amount used in session (megabytes)
-session_date — session date
-user_id — user's id
+
+- id — session id
+- mb_used — data amount used in session (megabytes)
+- session_date — session date
+- user_id — user's id
 
 _plans:_
-plan_name — rate name
-usd_monthly_fee — plan's monthly fee, expressed in united states dollars
-minutes_included — minutes included in the plan
-messages_included — SMS included in the plan
-mb_per_month_included — data included in the plan (megabytes)
-usd_per_minute — extra minute fee
-usd_per_message — extra sms fee
-usd_per_gb — extra gb fee
+
+- plan_name — rate name
+- usd_monthly_fee — plan's monthly fee, expressed in united states dollars
+- minutes_included — minutes included in the plan
+- messages_included — SMS included in the plan
+- mb_per_month_included — data included in the plan (megabytes)
+- usd_per_minute — extra minute fee
+- usd_per_message — extra sms fee
+- usd_per_gb — extra gb fee
