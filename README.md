@@ -74,3 +74,10 @@ _plans:_
 - usd_per_minute — extra minute fee
 - usd_per_message — extra sms fee
 - usd_per_gb — extra gb fee
+
+**Used libraries:**
+- pandas
+- matplotlib
+- numpy
+- math
+- stats
